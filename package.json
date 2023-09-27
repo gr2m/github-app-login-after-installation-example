@@ -20,5 +20,11 @@
     "tailwindcss": "latest"
   },
   "license": "ISC",
-  "repository": "github:gr2m/github-app-login-after-installation-example"
+  "repository": "github:gr2m/github-app-login-after-installation-example",
+  "release": {
+    "branches": [
+      "+([0-9]).x",
+      "main"
+    ]
+  }
 }
