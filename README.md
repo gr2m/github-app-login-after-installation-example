@@ -1,5 +1,7 @@
 # `github-app-login-after-installation-example`
 
+https://github.com/gr2m/github-app-login-after-installation-example/assets/39992/85617322-3778-415c-bf83-3d4ce59c15db
+
 This is an example GitHub app that showcases how to redirect users to your server after they install your GitHub App, and retrieve both the installation and user data.
 
 Before you start, make sure to create `.env.local` file in the root of the project. You can copy the exisitng `.env.local.example` file, it includes credentials for a demo GitHub App without any permissions
