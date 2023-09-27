@@ -15,8 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm install --no-save @semantic-release/git semantic-release-plugin-github-breaking-version-tag
-      - run: npm run build
       - run: npx semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
